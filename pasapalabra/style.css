@@ -1,0 +1,138 @@
+h1{
+    text-align: center;
+    width: 70vw;
+    height: auto;
+    border: rgb(119, 14, 180) 2px dashed;
+    background-color: rgb(252, 216, 236);
+    margin-left: 30px;
+    padding: 10px 0; 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    height: auto;
+    border: black 2px dotted;
+    background-color: rgb(234, 245, 188);
+    margin-left: 30px;
+}
+
+.container div{
+    border: black 1px solid;
+    height: 42px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 90%;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 30px;     
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    height: auto;
+    border: black 2px dotted;
+    background-color: rgb(228, 228, 228);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.answer{
+    border: black 1px solid;
+    height: 40px;
+    width: 160px;
+    margin: 10px 10px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.container2 div{
+    margin:10px 10px;
+    border: black 1px solid;
+    padding: 10px 10px;
+    background-color: skyblue;
+    cursor: pointer;
+}
+
+.container1{
+    width: 70vw;
+    height: auto;
+    border: black 2px solid;
+    text-align: center;
+    background-color: rgba(166, 255, 221, 0.966);
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 24px;
+    padding: 10px 0; 
+}
+
+.container3{
+    width: 70vw;
+    height: auto;
+    border: black 2px solid;
+    text-align: center;
+    background-color: rgba(230, 0, 0, 0.966);
+    background-color: rgb(15, 230, 15);
+    color: white;
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+    font-size: 30px;
+    padding: 10px 0; 
+    cursor: pointer;
+}
+
+.currentLetter{
+    background-color: rgb(255, 132, 50);
+}
+
+.wrongLetter{
+    background-color: red;
+}
+
+.rightLetter{
+    background-color: rgb(15, 230, 15);
+}
+
+.noAnswer{
+    background-color:rgb(241, 248, 252);
+
+}
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70vw;
+    height: auto;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.container4 div{
+    border: black 1px solid;
+    height: 42px;
+    width: 100px;
+    text-align: center;
+    padding-top: 8px;
+    font-size: 30px;     
+    margin: 10px 20px;
+}
+
+.timer{
+    background-color: rgb(112, 218, 250);
+}
+
+.right{
+    background-color:  rgb(15, 230, 15);
+}
+
+.wrong{
+    background-color: red;
+}
